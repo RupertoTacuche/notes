@@ -1,0 +1,42 @@
+.note-form {
+    width: auto; /* Ajustar automáticamente según el contenido */
+    background-color: lightgreen;
+    border: 3px solid darkblue;
+    padding: 10px 15px; /* Reducir padding para mejor presentación */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between; /* Separar texto y botón */
+    align-items: center; /* Centrar verticalmente los elementos */
+    transition: all 0.2s;
+}
+
+.note-title {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0; /* Asegura que no haya márgenes extra */
+}
+
+.create-btn {
+    width: 30px; /* Espacios extra eliminados */
+    height: 30px;
+    font-size: 1.5rem;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center; /* Centrar el "+" horizontalmente */
+    align-items: center; /* Centrar el "+" verticalmente */
+    border: none; /* Quitar bordes extra */
+    cursor: pointer; /* Cambiar cursor al pasar por encima */
+    border-radius: 50%; /* Botón redondo */
+}
+
+.create-btn:hover {
+    background-color: darkgreen;
+}
+
+.note-form:hover {
+    border: 3px solid black;
+    box-shadow: 0 0 10px;
+}
